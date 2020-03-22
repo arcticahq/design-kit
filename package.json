@@ -1,0 +1,39 @@
+{
+  "name": "@arctica/design-system",
+  "description": "Arctica Design System",
+  "version": "1.0.0",
+  "author": "Arctica",
+  "license": "UNLICENSED",
+  "main": "n/a",
+  "browserslist": [
+    "Edge 15"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "@arctica/eslint-config"
+    ]
+  },
+  "prettier": "@arctica/eslint-config/prettier.config",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "classnames": "^2.2.6",
+    "tailwindcss": "^1.2.0",
+    "tailwindcss-padding-safe": "^1.0.4",
+    "formsy-react": "=1.1.5",
+    "react-ink": "^6.4.0",
+    "react-textarea-autosize": "^7.1.2"
+  },
+  "devDependencies": {
+    "@arctica/eslint-config": "arcticahq/eslint-config#1215030",
+    "@storybook/react": "^5.3.17",
+    "prop-types": "^15.7.2"
+  },
+  "scripts": {
+    "storybook": "start-storybook",
+    "lint": "./node_modules/.bin/eslint --ext .js --ignore-pattern public .",
+    "lint:fix": "./node_modules/.bin/eslint --fix --ext .js --ignore-pattern public .",
+    "test:js": "jest",
+    "test:js:coverage": "jest --coverage",
+    "test:js:update": "jest --u"
+  }
+}

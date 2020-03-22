@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert renders an Alert correctly 1`] = `
+<div
+  className="text-center p-3 items-center text-black leading-none rounded-full flex bg-red-200"
+  role="alert"
+>
+  <span
+    className="flex rounded-full uppercase px-2 py-1 text-xs font-bold mr-3 text-white bg-red-600"
+  >
+    error
+  </span>
+  <span
+    className="font-semibold mr-2 text-sm text-left flex-auto"
+  >
+    &lt;p&gt;Alert error title&lt;/p&gt;
+  </span>
+</div>
+`;

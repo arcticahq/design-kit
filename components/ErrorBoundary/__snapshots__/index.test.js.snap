@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary renders a ErrorBoundary correctly 1`] = `
+<Fragment>
+  <h2
+    className="text-center text-white font-bold mt-5"
+    role="alert"
+  >
+    Something went wrong
+  </h2>
+  <p
+    className="text-center mt-5"
+  >
+    <Button
+      className={null}
+      disabled={false}
+      noink={false}
+      onClick={[Function]}
+      primary={true}
+      transparent={false}
+      type="button"
+    >
+      Reload
+    </Button>
+  </p>
+</Fragment>
+`;

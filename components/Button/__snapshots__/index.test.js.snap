@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders a submit Button correctly 1`] = `
+<button
+  className="focus:outline-none inline-block text-black text-xs py-3 px-4 rounded-full font-semibold uppercase cursor-pointer bg-indigo-600 rise bg-white relative"
+  formNoValidate={true}
+  type="submit"
+>
+  <e
+    background={true}
+    className="ink"
+    duration={1000}
+    opacity={0.25}
+    radius={150}
+    recenter={true}
+  />
+  Submit
+</button>
+`;

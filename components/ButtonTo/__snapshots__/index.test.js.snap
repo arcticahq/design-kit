@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonTo renders a ButtonTo correctly 1`] = `
+<mockConstructor
+  className="relative text-black text-xs bg-white py-3 px-4 rounded-full font-semibold uppercase rise hover:text-black inline-block"
+  to="/contact/"
+>
+  <e
+    background={true}
+    className="ink"
+    duration={1000}
+    opacity={0.25}
+    radius={150}
+    recenter={true}
+  />
+  Contact
+</mockConstructor>
+`;

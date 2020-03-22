@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea renders an Textarea correctly 1`] = `
+<Textarea
+  getErrorMessage={[MockFunction]}
+  getValue={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  isFormSubmitted={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  isPristine={[Function]}
+  isValid={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  name="message"
+  required={true}
+  rows={6}
+  setValue={[MockFunction]}
+  showError={[MockFunction]}
+  showRequired={[Function]}
+  title="Your message"
+>
+  <label
+    className="block uppercase tracking-wide text-black text-xs font-bold"
+    htmlFor="message"
+  >
+    Your message
+    <TextareaAutosize
+      aria-invalid={false}
+      aria-required={true}
+      className="appearance-none h-20 mt-2 block w-full bg-gray-100 text-gray-800 border rounded-lg py-3 px-3 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-yellow-500"
+      id="message"
+      inputRef={[Function]}
+      minRows={6}
+      name="message"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onHeightChange={[Function]}
+      required={true}
+      useCacheForDOMMeasurements={false}
+      value=""
+    >
+      <textarea
+        aria-invalid={false}
+        aria-required={true}
+        className="appearance-none h-20 mt-2 block w-full bg-gray-100 text-gray-800 border rounded-lg py-3 px-3 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-yellow-500"
+        id="message"
+        name="message"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={true}
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+        value=""
+      />
+    </TextareaAutosize>
+  </label>
+</Textarea>
+`;

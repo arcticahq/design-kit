@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders an Input correctly 1`] = `
+<InputHooks
+  getErrorMessage={[MockFunction]}
+  getValue={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  isFormSubmitted={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  isPristine={[Function]}
+  isValid={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  name="name"
+  required={true}
+  setValue={[MockFunction]}
+  showError={[MockFunction]}
+  showRequired={[Function]}
+  title="Your name"
+  type="text"
+>
+  <label
+    className="block uppercase tracking-wide text-black text-xs font-bold"
+    htmlFor="name"
+  >
+    Your name
+    <input
+      aria-invalid={false}
+      aria-required={true}
+      className="appearance-none mt-2 mb-6 block w-full bg-gray-100 text-gray-900 border rounded-lg py-3 px-3 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-yellow-500"
+      id="name"
+      name="name"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={true}
+      type="text"
+      value=""
+    />
+  </label>
+</InputHooks>
+`;

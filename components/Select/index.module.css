@@ -1,0 +1,30 @@
+.select {
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  margin: 5px 0 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  background-image:
+    linear-gradient(45deg, transparent 50%, black 50%),
+    linear-gradient(135deg, black 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px);
+  background-size:
+    5px 5px,
+    5px 5px;
+  background-repeat: no-repeat;
+  font-size: 0.8125rem; /* 13/16 */
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  .form select,
+  .form select:focus {
+    font-size: 1rem;
+  }
+}

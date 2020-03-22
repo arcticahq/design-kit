@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select renders an Select correctly 1`] = `
+<div
+  className="form-group error"
+>
+  <label
+    className=""
+    htmlFor="type"
+  >
+    Select
+     
+    <span
+      className="required"
+    >
+      *
+    </span>
+    <select
+      className="select"
+      id="type"
+      name="type"
+      onChange={[Function]}
+      value={[MockFunction]}
+    >
+      <option
+        key="Freelancefreelance"
+        value="freelance"
+      >
+        Freelance
+      </option>
+      <option
+        key="Contact Opportunitycontract"
+        value="contract"
+      >
+        Contact Opportunity
+      </option>
+      <option
+        key="Otherother"
+        value="other"
+      >
+        Other
+      </option>
+    </select>
+  </label>
+  <span
+    className="validation-error"
+  />
+</div>
+`;
