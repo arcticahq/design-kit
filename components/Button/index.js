@@ -11,18 +11,15 @@ const Button = ({
   primary,
   transparent,
   disabled,
-  styles,
-  shouldRise,
   ...rest
 }) => {
   const buttonClass = classnames({
-    [styles.button]: true,
-    rise: shouldRise,
-    "bg-indigo-600": !disabled && !transparent,
-    [styles.primary]: primary,
+    "focus:outline-none inline-block text-black text-xs py-3 px-4 rounded-full font-semibold uppercase cursor-pointer": true,
+    "bg-indigo-600 rise": !disabled && !transparent,
+    "text-white": primary,
     "bg-white relative": !transparent,
-    [styles.transparent]: transparent,
-    [styles.disabled]: disabled,
+    "bg-transparent": transparent,
+    "cursor-not-allowed bg-indigo-200": disabled,
     [className]: className && true
   })
 
@@ -49,12 +46,10 @@ Button.propTypes = {
   primary: PropTypes.bool,
   transparent: PropTypes.bool,
   disabled: PropTypes.bool,
-  rise: PropTypes.bool,
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node
-  ]).isRequired,
-  styles: PropTypes.object
+  ]).isRequired
 }
 
 Button.defaultProps = {
@@ -63,15 +58,7 @@ Button.defaultProps = {
   type: "button",
   transparent: false,
   disabled: false,
-  primary: false,
-  rise: true,
-  styles: {
-    button:
-      "focus:outline-none inline-block text-black text-xs py-3 px-4 rounded-full font-semibold uppercase cursor-pointer",
-    primary: "text-white",
-    disabled: "cursor-not-allowed bg-indigo-200",
-    transparent: "bg-transparent"
-  }
+  primary: false
 }
 
 export default Button
