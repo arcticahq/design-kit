@@ -10,21 +10,22 @@
   ],
   "eslintConfig": {
     "extends": [
-      "@arctica/eslint-config"
+      "./node_modules/@arctica/lint-kit"
     ]
   },
-  "prettier": "@arctica/eslint-config/prettier.config",
+  "prettier": "@arctica/lint-kit/prettier.config",
   "dependencies": {
+    "@tailwindcss/ui": "^0.1.3",
     "autoprefixer": "^9.7.4",
     "classnames": "^2.2.6",
-    "tailwindcss": "^1.2.0",
-    "tailwindcss-padding-safe": "^1.0.4",
     "formsy-react": "=1.1.5",
     "react-ink": "^6.4.0",
-    "react-textarea-autosize": "^7.1.2"
+    "react-textarea-autosize": "^7.1.2",
+    "tailwindcss": "^1.2.0",
+    "tailwindcss-padding-safe": "^1.0.4"
   },
   "devDependencies": {
-    "@arctica/eslint-config": "arcticahq/eslint-config#1215030",
+    "@arctica/lint-kit": "arcticahq/lint-kit#1215030",
     "@storybook/react": "^5.3.17",
     "prop-types": "^15.7.2"
   },

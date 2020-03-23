@@ -23,5 +23,5 @@ module.exports = {
     fontSize: ["responsive", "focus"],
     opacity: ["hover"]
   },
-  plugins: [require("tailwindcss-padding-safe")()]
+  plugins: [require('@tailwindcss/ui'), require("tailwindcss-padding-safe")()]
 }
